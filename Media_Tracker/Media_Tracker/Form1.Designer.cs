@@ -1,4 +1,4 @@
-﻿namespace MediaTracker
+﻿namespace Media_Tracker
 {
 	partial class Form1
 	{

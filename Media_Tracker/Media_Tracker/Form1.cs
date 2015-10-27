@@ -11,7 +11,7 @@ using System.IO;
 using System.Xml;
 using System.Xml.Linq;
 
-namespace MediaTracker
+namespace Media_Tracker
 {
 	public partial class Form1 : Form
 	{
