@@ -24,31 +24,8 @@ namespace Media_Tracker
 			InitializeComponent();
 			// TODO: read from the xml and add items to listbox
 			// ... also update from listboxes to something nicer looking
+            // fuck
 		}
-
-		private void button1_Click(object sender, EventArgs e)
-		{
-			if (File.Exists(_path))
-			{
-				try
-				{
-					if (textBox1.Text != null || textBox1.Text != "" || textBox1.Text != " ")
-					{
-						// Add the title the user enters into listbox
-						listBox1.Items.Add(textBox1.Text);
-						textBox1.Clear();
-
-						// TODO: add the title (and other info later) to the xml
-					}
-					else
-					{
-						MessageBox.Show("You must enter valid text");
-					}
-				}
-				catch (Exception ex)
-				{
-					MessageBox.Show(ex.ToString());
-				}
 			}
 			else
 			{
