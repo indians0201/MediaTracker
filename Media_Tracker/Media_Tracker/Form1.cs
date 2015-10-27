@@ -24,7 +24,6 @@ namespace Media_Tracker
 			InitializeComponent();
 			// TODO: read from the xml and add items to listbox
 			// ... also update from listboxes to something nicer looking
-			//
 		}
 
 		private void button1_Click(object sender, EventArgs e)
@@ -37,6 +36,7 @@ namespace Media_Tracker
 					{
 						// Add the title the user enters into listbox
 						listBox1.Items.Add(textBox1.Text);
+						textBox1.Clear();
 
 						// TODO: add the title (and other info later) to the xml
 					}
